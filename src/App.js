@@ -21,24 +21,24 @@
 
 // export default App;
 
-import React, { Component } from 'react';
-import CBCPropEx from './propsex/CBCPropEx';
+// import React, { Component } from 'react';
+// import CBCPropEx from './propsex/CBCPropEx';
 
-export default class App extends Component {
-  render() {
-    return (
-      <div>
-        <CBCPropEx
-          username="Janardhan"
-          age={20}
-          hobbies={["Playing", "Reading books", "Watching YouTube"]}
-          address={{ city: "Jangoan", area: "RamaChandraPuram" }}
-          sendFun={() => alert("Hi, I am Janardhan")}
-        />
-      </div>
-    );
-  }
-}
+// export default class App extends Component {
+//   render() {
+//     return (
+//       <div>
+//         <CBCPropEx
+//           username="Janardhan"
+//           age={20}
+//           hobbies={["Playing", "Reading books", "Watching YouTube"]}
+//           address={{ city: "Jangoan", area: "RamaChandraPuram" }}
+//           sendFun={() => alert("Hi, I am Janardhan")}
+//         />
+//       </div>
+//     );
+//   }
+// }
 
 
 //       import React, { Component } from 'react';
@@ -62,6 +62,20 @@ export default class App extends Component {
 
 
 
+import React, { Component } from 'react';
+import CBCStateEX from './stateexample/CBCStateEX'; // Adjust path as per your folder structure
+// import CBCStateEX from './stateexample/FBCStateEX';
+
+export default class App extends Component {
+  render() {
+    return (
+      <div>
+        <h1>State and Props Example</h1>
+        <CBCStateEX />
+      </div>
+    );
+  }
+}
    
 
 
