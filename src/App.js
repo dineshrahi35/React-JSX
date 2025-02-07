@@ -62,20 +62,47 @@
 
 
 
-import React, { Component } from 'react';
-import CBCStateEX from './stateexample/CBCStateEX'; // Adjust path as per your folder structure
-// import CBCStateEX from './stateexample/FBCStateEX';
+// import React, { Component } from 'react';
+// import CBCStateEX from './stateexample/CBCStateEX'; // Adjust path as per your folder structure
+// // import CBCStateEX from './stateexample/FBCStateEX';
 
-export default class App extends Component {
-  render() {
-    return (
-      <div>
-        <h1>State and Props Example</h1>
-        <CBCStateEX />
-      </div>
-    );
-  }
-}
+// export default class App extends Component {
+//   render() {
+//     return (
+//       <div>
+//         <h1>State and Props Example</h1>
+//         <CBCStateEX />
+//       </div>
+//     );
+//   }
+// }
    
 
+// import React, {Component} from 'react'
+// import FunctionalComponents from './components/FunctionComponents';
+// function App ()  {
+//   return (
+//     <div className="App">
+//     <FunctionalComponents clgName='MRU' city='hyd'></FunctionalComponents>
+      
+//     </div>
+//   )
+// }
 
+// export default App
+
+import React from 'react';
+import FunctionalComponent from './components/FunctionComponents';
+
+function App() {
+    return (
+        <div className="App">
+            <FunctionalComponent clgName="MRU" city="Hyderabad" apply={true}>
+                <p>This is a child element passed as props.</p>
+            </FunctionalComponent>
+        </div>
+    );
+}
+export default App;
+
+// welcome to my class oe a button down when i click on the button it want to be chanfe and all the style should be change and differnt from past.
