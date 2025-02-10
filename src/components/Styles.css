@@ -1,9 +1,15 @@
+/* Default styles */
 .heading {
     color: aqua;
     background-color: blue;
-}
-
-.font-style {
     font-size: 100px;
     font-family: 'Times New Roman', Times, serif;
+}
+
+/* Alternate styles */
+.alternate-heading {
+    color: orange;
+    background-color: greenyellow;
+    font-size: 60px;
+    font-family: Arial, sans-serif;
 }

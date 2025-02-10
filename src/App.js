@@ -91,18 +91,161 @@
 
 // export default App
 
-import React from 'react';
-import FunctionalComponent from './components/FunctionComponents';
+// import React from 'react';
+// import FunctionalComponent from './components/FunctionComponents';
 
-function App() {
-    return (
-        <div className="App">
-            <FunctionalComponent clgName="MRU" city="Hyderabad" apply={true}>
-                <p>This is a child element passed as props.</p>
-            </FunctionalComponent>
-        </div>
-    );
-}
-export default App;
+// function App() {
+//     return (
+//         <div className="App">
+//             <FunctionalComponent clgName="MRU" city="Hyderabad" apply={true}>
+//                 <p>This is a child element passed as props.</p>
+//             </FunctionalComponent>
+//         </div>
+//     );
+// }
+// export default App;
 
 // welcome to my class oe a button down when i click on the button it want to be chanfe and all the style should be change and differnt from past.
+
+// import React from 'react';
+// import FunctionalComponent from './components/FunctionComponents';
+// import MyForm from './components/MyForm';
+// function App() {
+//     return (
+//         <div className="App">
+//             <FunctionalComponent />
+//         </div>
+//     );
+// }
+
+// export default App;
+// 
+// import React, { Component } from "react";
+// import "./App.css";
+
+// class App extends Component {
+//   constructor(props) {
+//     super(props);
+//     this.state = {
+//       tasks: [],
+//       taskInput: "",
+//     };
+//   }
+
+//   handleInputChange = (event) => {
+//     this.setState({ taskInput: event.target.value });
+//   };
+
+//   addTask = () => {
+//     const { tasks, taskInput } = this.state;
+//     if (taskInput.trim()) {
+//       this.setState({
+//         tasks: [...tasks, taskInput],
+//         taskInput: "",
+//       });
+//     }
+//   };
+
+//   deleteTask = (index) => {
+//     const { tasks } = this.state;
+//     this.setState({
+//       tasks: tasks.filter((_, i) => i !== index),
+//     });
+//   };
+
+//   render() {
+//     const { tasks, taskInput } = this.state;
+
+//     return (
+//       <div className="App">
+//         <header className="App-header">
+//           <h1>Todo List</h1>
+//           <div className="input-section">
+//             <input
+//               type="text"
+//               placeholder="Add a task..."
+//               value={taskInput}
+//               onChange={this.handleInputChange}
+//             />
+//             <button onClick={this.addTask}>Add</button>
+//           </div>
+//           <ul className="task-list">
+//             {tasks.map((task, index) => (
+//               <li key={index}>
+//                 {task}
+//                 <button onClick={() => this.deleteTask(index)}>Delete</button>
+//               </li>
+//             ))}
+//           </ul>
+//         </header>
+//       </div>
+//     );
+//   }
+// }
+
+// export default App;
+// App.js
+// import React from "react";
+// import ClassComponent from "./ClassComponent";
+// import "./Style.css";
+
+// function App() {
+//   return (
+//     <div className="App">
+//       <header className="App-header">
+//         <h1>Welcome to the My Project</h1>
+//         <ClassComponent />
+//       </header>
+//     </div>
+//   );
+// }
+
+// export default App;
+
+// import React, { useState } from "react";
+// import "./Style.css";
+// import TaskList from "./TaskList";
+
+// function App() {
+//   const [tasks, setTasks] = useState(["Learn React", "Build a Project", "Have Fun"]);
+//   const [newTask, setNewTask] = useState("");
+
+//   const addTask = () => {
+//     if (newTask.trim()) {
+//       setTasks([...tasks, newTask.trim()]);
+//       setNewTask("");
+//     }
+//   };
+
+//   return (
+//     <div className="app-container">
+//       <h1>Task Manager</h1>
+//       <div className="task-input">
+//         <input
+//           type="text"
+//           value={newTask}
+//           onChange={(e) => setNewTask(e.target.value)}
+//           placeholder="Add a new task"
+//         />
+//         <button onClick={addTask}>Add Task</button>
+//       </div>
+//       <TaskList tasks={tasks} />
+//     </div>
+//   );
+// }
+
+// export default App;
+
+import React from 'react';
+import UseEffect from './UseEffectEx';
+
+const App = () => {
+  return (
+    <div>
+      <h1>React Application</h1>
+      <UseEffect />
+    </div>
+  );
+};
+
+export default App;
