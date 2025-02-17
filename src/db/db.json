@@ -1,0 +1,52 @@
+{
+  "users": [
+    {
+      "name": "Bandi Praveen Reddy",
+      "email": "2211CS010614@mallareddyuniversity.ac.in",
+      "phone": "8463946919",
+      "id": "1"
+    },
+    {
+      "name": "K. Janardhan",
+      "email": "2211CS010630@mallareddyuniversity.ac.in",
+      "phone": "6300793996",
+      "id": "2"
+    },
+    {
+      "id": "3",
+      "name": "B. Harsha Vardhan",
+      "email": "2211CS020623@mallareddyuniversity.ac.in",
+      "phone": "6300793996"
+    },
+    {
+      "id": "4",
+      "name": "M. Hari Vivek",
+      "email": "2211CS010618@mallareddyuniversity.ac.in",
+      "phone": "6300793996"
+    },
+    {
+      "id": "5",
+      "name": "CH. Bhanu Teja",
+      "email": "2211CS010618@mallareddyuniversity.ac.in",
+      "phone": "6300793996"
+    },
+    {
+      "id": "6",
+      "name": "K. Sai Krishna",
+      "email": "2211CS010618@mallareddyuniversity.ac.in",
+      "phone": "6300793996"
+    },
+    {
+      "id": "7",
+      "name": "K. Sandeep",
+      "email": "2211CS010618@mallareddyuniversity.ac.in",
+      "phone": "6300793996"
+    },
+    {
+      "id": "8",
+      "name": "A. Sidhu",
+      "email": "2211CS010618@mallareddyuniversity.ac.in",
+      "phone": "6300793996"
+    }
+  ]
+}
